@@ -3,7 +3,7 @@
 
 ### Evaluación Diagnóstica
 
-https://profesorfaco.github.io/interaccion/sesion_03/
+https://robertred-a.github.io/sesion-03/
 
 **En index.html**
 
