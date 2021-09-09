@@ -12,13 +12,13 @@
         <footer>
             <div id="back"><a href="index.html">back</a></div>
             <div id="controles"></div>
-            <div id="print"<a href="#" id="descarga">Descarga tu dibujo </a></div>
+            <a1 href="#" id="descarga">Descarga tu dibujo</a1>
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
         <script>
             var que = new URLSearchParams(window.location.search).get("dibuja");
             document.querySelector("h1").textContent += que;
-            document.querySelector("a").textContent += que;
+            document.querySelector("a1").textContent += que;
             function setup() {
                 var d = select("#descarga");
                 d.mousePressed(artemania);
