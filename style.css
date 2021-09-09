@@ -43,7 +43,7 @@ main p{
 }
 
 footer {
-    padding-right:1.75rem;
+  
     position: absolute;
     bottom: 0;
     display: flex;
@@ -58,6 +58,7 @@ footer {
 }
 
 footer a {
+    padding-right:1.75rem;
     text-decoration: none;
     line-height: 1;
     border: 2px solid gray;
