@@ -9,8 +9,8 @@
         <link href="style.css" rel="stylesheet" />
     </head>
     <body>
-        <header><h1>Dibuja un </h1></header>
-        <footer><a href="#" id="descarga">Descarga tu </a></footer>
+        <header><h1>Dibuja algo que comience con </h1></header>
+        <footer><a href="#" id="descarga">Descarga tu dibujo con </a></footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
         <script>
             var que = new URLSearchParams(window.location.search).get("dibuja");
@@ -28,7 +28,7 @@
                 }
             }
             function artemania() {
-                saveCanvas("mi_atacazo_artistico", "jpg");
+                saveCanvas("mi_dibujo_alfabetico", "jpg");
             }
             function windowResized() {
                 resizeCanvas(windowWidth, windowHeight);
