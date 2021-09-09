@@ -50,6 +50,26 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+    line-height: 1;
+    border: 2px solid gray;
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.75rem;
+    box-shadow: 0px 0px 3px #bbb;
+    background: white;
+}
+
+footer a:hover{
+    border: 2px solid black;
+    box-shadow: 0px 0px 1px #bbb;
+}
 
 footer div a {
     display: block;
@@ -66,7 +86,7 @@ footer div#next a{
     background-position: 90% center;
 }
 
-footer div#back a2{
+footer div#back a{
     padding-left:1.75rem;
     background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/></svg>');
     background-repeat:no-repeat;
