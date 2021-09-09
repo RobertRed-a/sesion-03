@@ -27,7 +27,9 @@ a {
 a:hover {
     color: #000;
 }
-
+b { color: #666;
+    margin-left: 3vw;
+    }
 header, main, footer {
     width: 86vw;
     margin: 0;
